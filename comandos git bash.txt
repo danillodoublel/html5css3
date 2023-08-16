@@ -1,0 +1,14 @@
+git status (enter) para visulaizar o que foi alterado na pasta local
+
+git add . (enter) para adicionar as alterações
+
+git status (enter) para ver os arquivos detalhados
+
+git commit -m "estrutura do site" (enter)
+
+git status (enter) para ver se está tudo ok
+
+git push (enter)
+
+That's all!!
+
