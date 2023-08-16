@@ -8,7 +8,9 @@ git commit -m "estrutura do site" (enter)
 
 git status (enter) para ver se está tudo ok
 
-git push (enter)
+git push (enter) sincronizar a pasta local com o github
+
+git pull (enter) sincronizar github com a pasta local
 
 That's all!!
 
