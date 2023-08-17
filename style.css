@@ -21,10 +21,23 @@ body{
 
 .Container {
     margin: 0 auto;
-    background-color: #7f0;
+    background-color: #dcdcdc;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+
 }
 
 /* Smarphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* header */
+
+header {
+    height: 60px;
+}
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
@@ -67,6 +80,6 @@ body{
     }
     /* Layout */
     .Container {
-        max-width: 1140px;
+        max-width: 1240px;
     }
 }
