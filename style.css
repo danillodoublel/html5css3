@@ -1,5 +1,28 @@
 /* Folha de estilo do site de teste HTML5 e CSS3 */
+/* Importação google fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;  /* 1 em equivale a 16px */
+}
+
+/* Layout */
+
+.Container {
+    margin: 0 auto;
+    background-color: #7f0;
+}
 
 /* Smarphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -8,6 +31,10 @@
     body {
         background-color: #0ff;
     }
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
 }
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -15,17 +42,31 @@
     body {
         background-color: yellow;
     }
+    /* Layout */
+    .Container {
+        max-width: 720px;
+    }
 }
+
 
 /* Tablet Landscaoe >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
     body {
         background-color: #ff6600;
     }
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
 }
+
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px) {
     body {
         background-color: #f00;
+    }
+    /* Layout */
+    .Container {
+        max-width: 1140px;
     }
 }
